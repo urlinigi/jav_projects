@@ -2,12 +2,13 @@
 Copyright Giulio URLINI, 2014
 */
 
-/* This program searches in a given directory duplicates of the same file. The method computes the CRC code of each file, and group any match. In case of a positive mathc a binary comarison is performed.
+/* This program searches in a given directory duplicates of the same file. The method computes the CRC code of each file, and group any match. 
+ * In case of a positive match a binary comarison is performed.
 * 
 * New Features:
 * 
 
-TODO add the analysis of jpeg files with time, date, localization and maybe other
+TODO add the analysis of jpeg files with time, date, localization and maybe other (use JpegMetadataParser class)
 TODO add more formats for images (cif, bmp, png, ...)
 
 TODO the final demo should be able, against an option, to copy on a output target forlder each image file, single or one of the duplicates, renaming the files with a string composed by date and time of capture
